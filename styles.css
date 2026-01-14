@@ -1,0 +1,90 @@
+@font-face {
+    font-family: timeCounter;
+    src: url(Digital\ Dismay.otf);
+}
+
+
+body {
+   
+    background-color: whitesmoke;
+    color: white;
+   
+        
+}
+h1 {
+    margin-top: 0;
+}
+.container {
+    margin: 100px auto;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(7, 21, 66);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.guest{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#home-score, #guest-score {
+    width: 100px;
+    height: 80px;
+    background-color: black;
+    color: rgb(221, 50, 50);
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+    font-family: timeCounter;
+    font-weight: lighter;
+}
+
+.btn {
+    margin: 10px;
+}
+
+
+button {
+  width: 30px;
+  background-color: rgb(7, 21, 66);
+  color: rgba(255, 255, 255, 0.788);
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-family: timeCounter;
+  font-weight: lighter;
+}
+
+
+.first {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+}
+
+.second {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
