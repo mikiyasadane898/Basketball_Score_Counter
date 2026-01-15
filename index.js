@@ -17,7 +17,6 @@ function increment(event){
         actions[action]();   
         
     }
+
+
 }
-
-
-
