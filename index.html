@@ -8,28 +8,29 @@
   </head>
   <body>
     <div class="container">
-<div class="first"></div>
-<div class="second">
-
-      <div class="home">
-        <h1>Home</h1>
-        <h1 id="home-score"></h1>
-        <div class="btn">
-          <button onclick="increment(this)" data-action="Home1">+1</button>
-          <button onclick="increment(this)" data-action="Home2">+2</button>
-          <button onclick="increment(this)" data-action="Home3">+3</button>
+      <div id="timer">0:00</div>
+      <h1 id="round">Round:</h1>
+      <div id="score">
+        <div class="home">
+          <h1>Home</h1>
+          <h1 id="home-score"></h1>
+          <div class="btn">
+            <button onclick="increment(this)" class="incrementBtn" data-action="Home1">+1</button>
+            <button onclick="increment(this)" class="incrementBtn" data-action="Home2">+2</button>
+            <button onclick="increment(this)" class="incrementBtn" data-action="Home3">+3</button>
+          </div>
+        </div>
+        <div class="guest">
+          <h1>Guest</h1>
+          <h1 id="guest-score"></h1>
+          <div class="btn">
+            <button onclick="increment(this)" class="incrementBtn" data-action="Guest1">+1</button>
+            <button onclick="increment(this)" class="incrementBtn" data-action="Guest2">+2</button>
+            <button onclick="increment(this)" class="incrementBtn" data-action="Guest3">+3</button>
+          </div>
         </div>
       </div>
-      <div class="guest">
-        <h1>Guest</h1>
-        <h1 id="guest-score"></h1>
-        <div class="btn">
-          <button onclick="increment(this)" data-action="Guest1">+1</button>
-          <button onclick="increment(this)" data-action="Guest2">+2</button>
-          <button onclick="increment(this)" data-action="Guest3">+3</button>
-        </div>
-      </div> 
-      </div>
+      <Button id="start-btn">Start</Button>
     </div>
   </body>
   <script src="index.js"></script>
